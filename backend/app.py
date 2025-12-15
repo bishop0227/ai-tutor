@@ -3460,9 +3460,8 @@ def create_app():
     
     return app
 
-
+app = create_app()
 if __name__ == '__main__':
-    app = create_app()
     
     # 개발 서버 실행
     print("Flask 서버를 시작합니다...")

@@ -7,7 +7,7 @@ import axios from 'axios';
 
 // Axios 인스턴스 생성 (Base URL 설정)
 const api = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://ai-tutor-bqd9.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
